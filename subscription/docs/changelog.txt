@@ -1,0 +1,50 @@
+---------------------------------------
+0.96 Beta 1  2013-01-05
+---------------------------------------
+
+- Converted to XOOPS 2.5.5 Admin GUI (Mamba)
+
+VERSION 0.95-3:
+---------------------------------------
+Fixed bug in sub_detail.php report.
+
+VERSION 0.95-2:
+---------------------------------------
+Fixed bugs in lists.php file.
+VERSION 0.95-1:
+Fixed bugs in xoops_version.php file.
+
+VERSION 0.95:
+---------------------------------------
+Fixed bugs in addmanualtransaction.
+
+VERSION 0.90:
+---------------------------------------
+Fixed some issues with addmanualtransaction, cron and a few other bugs...
+prep for ccbill.
+
+VERSION 0.89:
+---------------------------------------
+Bug fixes galore in gateways and admin
+New Details in reports
+
+VERSION 0.85pre:
+---------------------------------------
+Currency Fixes
+Bug fixes - see notes
+
+version 0.70
+------------
+added gateway admin to module admin
+added module preferences to admin
+fixed bug in paymentdata.php
+replaced all references to HTTP_POST_VARS and HTTP_GET_VARS
+
+version 0.57
+------------
+fixed minor bug in ssl url handing for payments.
+
+version 0.56
+------------
+first public release of module
+

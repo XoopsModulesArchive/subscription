@@ -1,0 +1,66 @@
+<table width="450">
+	<form action="update_currentsub.php" method="post">
+	<tr>
+		<td class="even" colspan=2>
+			<a href="currentsubs.php">Go Back</A>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" class="head">
+			<B>User
+		</td>
+		<td align="left" class="even" width="200">
+			<{$sub.uname}>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" class="head">
+			<B>Subscription</B>
+		</td>
+		<td align="left" class="even" width="200">
+			<{$sub.subname}>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" class="head">
+			<B>Price</B>
+		</td>
+		<td align="left" class="even" width="200">
+			<{$sub.amount}>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" class="head">
+			<B>Interval</b>
+		</td>
+		<td align="left" class="even" width="200" >
+			<{$sub.interval}>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" class="head">
+			<B>Expiration Date
+		</td>
+		<td align="left" class="even" width="200">
+			<input type="text" value="<{$sub.expdate}>" size=20 name="expdate">
+		</td>
+	</tr>
+	<tr>
+		<td align="left" class="head">
+			<B>Canceled</b>
+		</td>
+		<td align="left" class="even" width="200">
+			<select name="cancel">
+				<option value="N" <{if $sub.cancel eq 'No'}> SELECTED <{/if}>>No</option>
+				<option value="Y" <{if $sub.cancel eq 'Yes'}> SELECTED <{/if}>>Yes</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td align="center" colspan=2>
+			<input type="submit" value="submit">
+		</td>
+	</tr>
+	<input type="hidden" name="sid" value="<{$sub.sid}>">
+	</form>
+</table>
